@@ -8,7 +8,7 @@ response = exa.search(
   query,
   num_results=5,
   type='keyword',
-  include_domains=['https://www.tiktok.com'],
+  include_domains=['https://www.instagram.com'],
 )
 
 for result in response.results:
